@@ -1,0 +1,35 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 20px);
+}
+
+.title-container {
+    margin: 15px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.title-container > h1 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.board-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    overflow-x: auto;
+    width: fit-content;
+}
+
+.board-container > div {
+    margin-right: 10px;
+}
+
+.board-container > div:last-child {
+    margin-right: 0px;
+}
+

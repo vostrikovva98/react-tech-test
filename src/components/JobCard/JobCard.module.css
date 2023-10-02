@@ -1,0 +1,20 @@
+.root {
+    cursor: pointer;
+    max-width: 18rem;
+}
+
+.root  p {
+    margin-bottom: 10px;
+}
+
+.header {
+    background-color: inherit;
+}
+
+.tag-text {
+    display: inline-block;
+}
+
+.is-dragged {
+    opacity: 0.6;
+}

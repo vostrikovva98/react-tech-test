@@ -1,0 +1,9 @@
+.root > div {
+    margin-bottom: 5px;
+}
+
+.button-panel {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}

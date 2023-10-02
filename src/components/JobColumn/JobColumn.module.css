@@ -1,0 +1,26 @@
+.root {
+    height: 100%;
+    width: 300px;
+}
+
+.header {
+    background-color: #ececef;
+}
+
+.body {
+    padding: 4px 6px;
+    background-color: #ececef;
+    overflow-y: auto;
+}
+
+.body > div {
+    margin-bottom: 10px;
+}
+
+.body > div:last-child {
+    margin-bottom: 10px;
+}
+
+.is-hovered {
+    background-color: rgb(188,251,255);
+}

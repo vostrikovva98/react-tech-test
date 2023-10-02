@@ -1,0 +1,6 @@
+.root {
+    display: inline-flex;
+    border-radius: 20px;
+    padding: 2px 4px;
+    margin: 0px 4px;
+}
